@@ -1,0 +1,10 @@
+{
+  "account-name": {
+    "key": "authorization key place here , just key not BEARER",
+    "MaxTaps": 6000,
+    "tapsRecoverPerSec": 3,
+    "lastRequestTime": 1718388250,
+    "earnPerTap": 10,
+    "availableTaps": 0
+  }
+}
