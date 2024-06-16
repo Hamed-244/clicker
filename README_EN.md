@@ -16,7 +16,8 @@ This project is an auto clicker built using Python and Flask. It allows you to a
 Follow these steps to set up and run the project on your local machine:
 
 >[!WARNING]
-> IT COULD BAN YOUR ACCOUNT SO DON'T USE THIS BOT WITH YOUR PRIMARY ACCOUNT
+> IT COULD BAN YOUR ACCOUNT SO DON'T USE THIS BOT WITH YOUR PRIMARY ACCOUNT<br>
+> DON'T GO TO YOUR ACCOUNT UNTIL 20 OR 30 MINUTE AFTER LAST TIME THIS SCRIPT MADE A REQUEST
 
 1. **Clone this repository:**
 
@@ -78,7 +79,7 @@ Follow these steps to set up and run the project on your local machine:
 4. refresh the page 
 5. now you can find telegram-web-app.js file
 6. overwrite this code 
-   ```
+   ```js
    Object.defineProperty(WebApp, 'platform', {
      get: function () {
          return webAppPlatform;
@@ -87,7 +88,7 @@ Follow these steps to set up and run the project on your local machine:
    });
    ```
    with this code
-   ```
+   ```js
    Object.defineProperty(WebApp, 'platform', {
      get: function () {
          return 'ios';
