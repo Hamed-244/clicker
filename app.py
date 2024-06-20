@@ -121,5 +121,5 @@ def status():
         result +='<p>'+ item +'</p>' + '</br>'
     return '<div style="font-family: cursive;">' + result + '</div>'
 
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0',debug=True, port=8000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',debug=True, port=8000)
